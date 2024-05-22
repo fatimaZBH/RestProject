@@ -13,9 +13,7 @@ public class CalculatriceService {
 	@Path("/ajouter/{a}/{b}")
 	@Produces(MediaType.APPLICATION_JSON)
 	public double Ajouter(@PathParam("a")double a,@PathParam("b") double b) {
-		return a+b;
-		
+		return a+b;	
 	}
 	
-
 }
