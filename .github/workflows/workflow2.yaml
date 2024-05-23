@@ -1,4 +1,4 @@
-name: Email on Push to Main
+name: Send Email on Event
 
 on:
   push:
