@@ -34,7 +34,11 @@ jobs:
           ${{ runner.os }}-maven-
 
     - name: Build with Maven
-      run: mvn -B package --file pom.xml
+      run: |
+            echo "Waiting for 60 seconds..."
+            sleep 120
+            echo "Done waiting!"
+            mvn -B package --file pom.xml
       
     - name: Print branch name
       run: |
