@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - RestProject
+      
   workflow_dispatch:
 
 jobs:
