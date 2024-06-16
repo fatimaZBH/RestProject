@@ -1,7 +1,7 @@
 name: Sonar tests
 
 on:
-  push:
+  pull_request:
     branches:
       - RestProject
   workflow_dispatch:
