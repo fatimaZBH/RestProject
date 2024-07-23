@@ -45,6 +45,6 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
               echo "Waiting for 60 seconds..."
-              sleep 900
+              sleep 9
               echo "Done waiting!"
               mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=myorganisation_myproject
