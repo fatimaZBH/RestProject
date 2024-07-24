@@ -35,6 +35,7 @@ jobs:
 
     - name: Build with Maven
       run: |
+            echo "print working directory"
             pwd
             echo "Waiting for 60 seconds..."
             sleep 12
