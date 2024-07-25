@@ -44,6 +44,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
+              which sonar-scanner
               echo "Waiting for 60 seconds..."
               sleep 9
               echo "Done waiting!"
