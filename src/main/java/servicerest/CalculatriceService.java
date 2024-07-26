@@ -13,8 +13,8 @@ public class CalculatriceService {
 	@Path("/ajouter/{a}/{b}")
 	@Produces(MediaType.APPLICATION_JSON)
 	public double Ajouter(@PathParam("a")double a,@PathParam("b") double b) {
-		system.out.println("hello");
-		return a+b;	
+		double c=a+b;
+		return c;	
 	}
 	
 	
